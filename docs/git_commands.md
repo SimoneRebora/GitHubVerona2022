@@ -59,7 +59,7 @@ Before doing any commit from your computer, you need to create a personal access
 4. "Generate new token"
 
 ...then you will have to select expiration date, scope (for basic usage, please select just "repo", i.e. "Full control of private repositories") and "Generate token"!  
-![Screenshot 2022-01-06 at 12-09-03 Build software better, together](https://user-images.githubusercontent.com/29945305/148373970-cf782821-0558-4aed-b58f-0abd01a8d68b.png)
+![Screenshot 2022-01-06 at 12-24-27 Build software better, together](https://user-images.githubusercontent.com/29945305/148375773-4ee1ef5b-3bc5-439c-b943-a4f77907509c.png)
 
 Please note that you will see the token just once, so copy/paste it immediately in your computer!
 
@@ -73,5 +73,8 @@ Then, you will need to use three commands, one after the other:
 You will be asked for your username and token. Then the push will be done!
 
 ### 4.2 Example
-If I made changes to the files in this repository.
+If I made changes to the files in this repository:
+![Screenshot from 2022-01-06 12-21-59](https://user-images.githubusercontent.com/29945305/148375660-e33b777b-4a61-428a-b745-6d4d43ee7c26.png)
+
+
 
