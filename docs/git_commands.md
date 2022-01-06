@@ -33,4 +33,16 @@ If you want to clone **this** GitHub repository, you need to write:
 Note that the full url appears in the repository home page, top right:
 ![Screenshot 2022-01-06 at 11-47-31 SimoneRebora GitHubVerona2022 Introduction to GitHub for the DH team at the University of](https://user-images.githubusercontent.com/29945305/148371256-cfc63acb-0c60-49ea-bc36-6220bf09ddca.png)
 
+## 3. Update a repository
+
+If the repository has changed after you cloned it (i.e. the maintainer has updated some files), you can upddate it by:
+1. Moving the the main folder of your repository (using the `cd` command)
+2. Writing the command `git pull`
+
+### 3.1 Example
+
+If you cloned **this** GitHub repository and you want to update it, you need to write:
+`cd GitHubVerona2022`
+`git pull`
+
 
