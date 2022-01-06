@@ -41,8 +41,9 @@ If the repository has changed after you cloned it (i.e. the maintainer has updat
 
 ### 3.1 Example
 
-If you cloned **this** GitHub repository and you want to update it, you need to write:
-`cd GitHubVerona2022`
+If you cloned **this** GitHub repository and you want to update it, you need to write:  
+`cd GitHubVerona2022`  
 `git pull`
+
 
 
