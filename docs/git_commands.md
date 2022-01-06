@@ -57,6 +57,7 @@ Before doing any commit from your computer, you need to create a personal access
 2. On the left, scroll down to click on "Developer settings"
 3. Then click on "Personal access tokens"
 4. "Generate new token"
+
 ...then you will have to select expiration date, scope (for basic usage, please select just "repo", i.e. "Full control of private repositories") and "Generate token"!  
 ![Screenshot 2022-01-06 at 12-09-03 Build software better, together](https://user-images.githubusercontent.com/29945305/148373970-cf782821-0558-4aed-b58f-0abd01a8d68b.png)
 
@@ -64,7 +65,7 @@ Please note that you will see the token just once, so copy/paste it immediately 
 
 ### 4.1 Push changes
 Go back to the Terminal (or Git BASH).  
-First of all, please make sure that you are in the main repository folder!!
+First of all, please make sure that you are in the main repository folder!!  
 Then, you will need to use three commands, one after the other:
 1. `git add -A`  
 2. `git commit -m "my_message"`
