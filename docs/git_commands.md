@@ -14,7 +14,8 @@ First, you need to be able to browse your computer, in order to find the folder 
 ### 1.1 Example
 
 In a situation like the following:
-![Screenshot from 2022-01-06 11-39-21](https://user-images.githubusercontent.com/29945305/148370315-bca98920-329b-4648-b90b-f4fa5005948a.png)
+
+![Screenshot from 2022-01-06 11-55-17](https://user-images.githubusercontent.com/29945305/148372437-790c25a1-b80f-46ef-837f-f15c808b8518.png)
 
 To move from your location ("my_folder") to "my_other_folder", you need to write:
 
