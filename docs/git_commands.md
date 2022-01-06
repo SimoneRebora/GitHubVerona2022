@@ -67,14 +67,17 @@ Please note that you will see the token just once, so copy/paste it immediately 
 Go back to the Terminal (or Git BASH).  
 First of all, please make sure that you are in the main repository folder!!  
 Then, you will need to use three commands, one after the other:
-1. `git add -A`  
-2. `git commit -m "my_message"`
-3. `git push origin main`
+1. `git add -A` (this looks for all the changes in files - also deletions!) 
+2. `git commit -m "my message"` (this commits the changes with a description message)
+3. `git push origin main` (this pushes the changes to the "main" - or any other - branch)
+
 You will be asked for your username and token. Then the push will be done!
 
 ### 4.2 Example
 If I made changes to the files in this repository:
 ![Screenshot from 2022-01-06 12-21-59](https://user-images.githubusercontent.com/29945305/148375660-e33b777b-4a61-428a-b745-6d4d43ee7c26.png)
 
-
-
+### 4.3 Tip
+To make your next pushes faster, you can:
+1. call the command `git config --global credential.helper cache` (which will save username/token to the cache)
+2. call the three commands in one line `git add -A; git commit -m "another message"; git push origin main`
