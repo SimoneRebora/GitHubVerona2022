@@ -20,7 +20,7 @@ I note that something is missing/mistaken in a repository, and **I do have** the
 - I send a "pull request" to the original repository
 - My pull request will be reviewed and, if fine, my forked repository will be merged with the source repository
 
-![fork](https://user-images.githubusercontent.com/29945305/148435020-5e277d02-5c6b-4d10-8d46-6a1016368def.png)
+![fork](https://user-images.githubusercontent.com/29945305/148540231-9db230c7-ff0d-4f4c-842c-e5c376ece9d8.png)
 
 ## Scenario 3
 
@@ -33,7 +33,7 @@ If I created a repository and I want to add a collaborator to contribute directl
 - Go to "Settings" and then "Manage access" (I will need to confirm my GitHub password - not token!!)
 - Look for a collaborator by username and send an invitation (the invited collaborator will have to accept it)
 
-![collaborate](https://user-images.githubusercontent.com/29945305/148435020-5e277d02-5c6b-4d10-8d46-6a1016368def.png)
+![collaborate](https://user-images.githubusercontent.com/29945305/148540202-c3f4c350-3064-4cd4-a769-3613be9de06a.png)
 
 ### 3.2 Create branches
 
@@ -42,7 +42,7 @@ However, it is not good practice to modify directly the "main" branch (as it can
 Good practice is to create alternative branches, where to work safely without the fear of "breaking" the main branch.  
 Everytime you modify a file, you are asked if you want to create a new branch:  
 
-![branch](https://user-images.githubusercontent.com/29945305/148435020-5e277d02-5c6b-4d10-8d46-6a1016368def.png)
+![branch](https://user-images.githubusercontent.com/29945305/148540271-07df1d66-e4aa-433a-80ee-f497a1d3f725.png)
 
 You can also do it via command line, by modifying the command:  
 `git push origin main`  
@@ -53,7 +53,7 @@ into:
 
 Once you have modified the files and verified they (almost) work, you can send a pull request:  
 
-![pull](https://user-images.githubusercontent.com/29945305/148435020-5e277d02-5c6b-4d10-8d46-6a1016368def.png)
+![pull](https://user-images.githubusercontent.com/29945305/148540280-36f9c132-0d07-4d0d-b229-2dcab270d1c8.png)
 
 Ideally, the pull request will have to be reviewed by the repository maintainer (or by anybody else who will be assigned to it), eventually modified to make it fully compatible, and then accepted.  
 
