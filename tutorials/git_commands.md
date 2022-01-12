@@ -88,8 +88,8 @@ Then call the following commands:
 2. `git config --global user.email "my_github_email"`
 
 Of course, you will have to substitute "my_github_username" and "my_github_email" with your actual GitHub username and email.  
-To verify that the identity has been correctly configured, you can call the command:  
-`git config --list`
+
+To verify that the identity has been correctly configured, you can call the command: `git config --list`
 
 ### 4.1 Push changes
 Go to the Terminal (or Git BASH).  
