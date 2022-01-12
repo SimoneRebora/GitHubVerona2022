@@ -21,6 +21,16 @@ To move from your location ("my_folder") to "my_other_folder", you need to write
 
 `cd my_other_folder`
 
+You can verify that you actually moved there by writing:
+
+`pwd`
+
+Then, if you want to go back to the original folder, you need to write:
+
+`cd ..`
+
+...where the two dots mean the father (above) folder
+
 ## 2. Clone a repository
 
 If you want to clone a repository by somebody else (or that you have created), you need to use the command: `git clone repository_url`
