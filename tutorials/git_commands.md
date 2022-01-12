@@ -60,7 +60,7 @@ If you cloned **this** GitHub repository and you want to update it, you need to 
 
 If **you** changed the repository files on your computer and you want to commit your local changes to the online GitHub repository, you need to follow a more complex procedure.
 
-### 4.0 Security set ups
+### 4.0 Security setups
 These are setups you will need to do just once!
 
 #### 4.0.1 Create a token
@@ -83,8 +83,8 @@ This is good practice, because if you don't do it, the risk is that your pushes 
 
 Go to the Terminal (or Git BASH).  
 Then call the following commands:
-1. git config --global user.name "my_github_username"
-2. git config --global user.email "my_github_email"
+1. `git config --global user.name "my_github_username"`
+2. `git config --global user.email "my_github_email"`
 
 Of course, you will have to substitute "my_github_username" and "my_github_email" with your actual GitHub username and email.
 
