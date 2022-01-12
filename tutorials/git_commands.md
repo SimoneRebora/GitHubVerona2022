@@ -60,7 +60,10 @@ If you cloned **this** GitHub repository and you want to update it, you need to 
 
 If **you** changed the repository files on your computer and you want to commit your local changes to the online GitHub repository, you need to follow a more complex procedure.
 
-### 4.0 Create a token
+### 4.0 Security set ups
+These are setups you will need to do just once!
+
+#### 4.0.1 Create a token
 Before doing any commit from your computer, you need to create a personal access token (this is for security reasons).
 1. Click on "Settings" in your personal profile
 ![Screenshot 2022-01-06 at 12-03-16 SimoneRebora - Overview](https://user-images.githubusercontent.com/29945305/148373395-339aab43-a843-416d-9ba1-19242b2afc79.png)
@@ -71,10 +74,22 @@ Before doing any commit from your computer, you need to create a personal access
 ...then you will have to select expiration date, scope (for basic usage, please select just "repo", i.e. "Full control of private repositories") and "Generate token"!  
 ![Screenshot 2022-01-06 at 12-24-27 Build software better, together](https://user-images.githubusercontent.com/29945305/148375773-4ee1ef5b-3bc5-439c-b943-a4f77907509c.png)
 
-Please note that you will see the token just once, so copy/paste it immediately in your computer!
+Please note that you will see the token just once, so copy/paste it immediately in your computer!  
+Also remember that if you set an expiration date for the token, you will have to create another one once it has expired.
+
+#### 4.0.2 Configure your identity in your computer
+You will also need to set up your identity in your computer.  
+This is good practice, because if you don't do it, the risk is that your pushes won't be assigned to you.  
+
+Go to the Terminal (or Git BASH).  
+Then call the following commands:
+1. git config --global user.name "my_github_username"
+2. git config --global user.email "my_github_email"
+
+Of course, you will have to substitute "my_github_username" and "my_github_email" with your actual GitHub username and email.
 
 ### 4.1 Push changes
-Go back to the Terminal (or Git BASH).  
+Go to the Terminal (or Git BASH).  
 First of all, please make sure that you are in the main repository folder!!  
 Then, you will need to use three commands, one after the other:
 1. `git add -A` (this looks for all the changes in files - also deletions!) 
@@ -89,5 +104,5 @@ If I made changes to the files in this repository:
 
 ### 4.3 Tip
 To make your next pushes faster, you can:
-1. call the command `git config --global credential.helper cache` (which will save username/token to the cache)
-2. call the three commands in one line `git add -A; git commit -m "another message"; git push origin main`
+1. call the three commands in one line `git add -A; git commit -m "another message"; git push origin main`
+2. some machines won't memorize the token. One way to do it, is to call the command `git config --global credential.helper cache` (which will save username/token to the cache)
