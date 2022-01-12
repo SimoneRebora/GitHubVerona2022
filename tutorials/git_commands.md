@@ -117,7 +117,7 @@ You will have to:
 2. `git init` (this will initialize the repository)
 3. `git add -A` (the same as above when pushing changes...)
 4. `git commit -m "my message"` (the same as above when pushing changes...)
-5. However, you cannot immediately push your changes. First, you will need to create an empty repository (so, without initializing it with "README.md", "LICENSE", or ".gitignore"). The following steps will be suggested by GitHub itself:  
+5. However, you cannot immediately push your changes. First, you will need to create an empty repository in GitHub (so, without initializing it with "README.md", "LICENSE", or ".gitignore"). The following steps will be suggested by GitHub itself:  
 ![Screenshot 2022-01-12 at 15-59-46 SimoneRebora test_repo](https://user-images.githubusercontent.com/29945305/149176492-49b906b3-6e66-4d14-a06b-7d13dfc8e2c9.png)
 6. `git remote add origin your_repository_url`
 7. `git branch -M main`
