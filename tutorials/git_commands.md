@@ -99,7 +99,7 @@ Then, you will need to use three commands, one after the other:
 2. `git commit -m "my message"` (this commits the changes with a description message)
 3. `git push origin main` (this pushes the changes to the "main" - or any other - branch)
 
-You will be asked for your username and token. Then the push will be done!
+You will be asked for your username and/or token. Then the push will be done!
 
 ### 4.2 Example
 If I made changes to the files in this repository:
