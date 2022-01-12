@@ -25,7 +25,7 @@ You can verify that you actually moved there by writing:
 
 `pwd`
 
-Then, if you want to go back to the original folder, you need to write:
+Then, if you want to go back to the previous folder ("my_folder"), you need to write:
 
 `cd ..`
 
