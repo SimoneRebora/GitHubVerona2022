@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/444495472.svg)](https://zenodo.org/badge/latestdoi/444495472)
+
 # GithHub Verona 2022
 
 Slides and materials for the *GitHub for Digital Humanities* seminar (in Italian: *GitHub per l'informatica umanistica*), held at the University of Verona on 10-14 January 2022.
