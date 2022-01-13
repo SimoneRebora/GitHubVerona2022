@@ -47,7 +47,7 @@ Everytime you modify a file, you are asked if you want to create a new branch:
 You can also do it via command line, by modifying the command:  
 `git push origin main`  
 into:  
-`git push origin other_branch`  
+`git checkout -b other_branch; git push origin other_branch`  
 
 ### 3.3 Send a pull request
 
