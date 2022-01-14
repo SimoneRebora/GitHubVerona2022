@@ -1,7 +1,4 @@
-
-
 [![DOI](https://zenodo.org/badge/444495472.svg)](https://zenodo.org/badge/latestdoi/444495472)
-
 
 # GithHub Verona 2022
 
